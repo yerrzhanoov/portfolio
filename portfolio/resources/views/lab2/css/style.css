@@ -1,0 +1,77 @@
+body {
+    margin: 0px auto;
+}
+
+.bg {
+    height: 800px;
+    background-image: url(https://cdn.guidingtech.com/imager/assets/215413/Best-Nature-Wallpapers-in-Full-HD-for-Desktop-and-Mobile-3_4d470f76dc99e18ad75087b1b8410ea9.jpg?1549014968);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+    background-blend-mode: multiply;
+}
+
+.header {
+    background: rgba(37, 37, 36, 0.7);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header :hover {
+    color: rgba(0, 132, 255, 0.7);
+}
+
+
+
+.main {
+    padding: 200px 200px 100px 200px;
+    text-align: center;
+    color: white;
+}
+
+.main h1 {
+    font-size: 70px;
+}
+
+.main h2 {
+    border: 2px solid white;
+    padding: 5px;
+    margin: 25px 0 15px 0;
+}
+
+.main button {
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+}
+
+.solution {
+    height: 800px;
+    background-color: rgba(192, 192, 189, 0.7);
+}
+
+.solution .card-deck {
+    margin: 0;
+    padding: 20px 120px;
+    min-width: 1000px;
+    justify-content: center;
+}
+
+.solution h1 {
+    text-align: center;
+    font-size: 40px;
+    padding : 20px 0;
+    margin-bottom: 0;
+    min-height: 60px;
+}
+
+.solution .card {
+    text-align: center;
+    width: 350px;
+}
+
