@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
+use App\Models\post;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -32,3 +35,14 @@ Route::get('/eco', function () {
     return view('lab2/eco');
 })->name('ecology');
 
+Route::get('post/add', function () {
+    DB::table('post')->insert([
+        'id' => '2',
+        'title' => 'second',
+        'body' => 'its second post'
+    ]);
+});
+Route::get('post', function() {
+    $post = post::find(2);
+    return $post;
+});
